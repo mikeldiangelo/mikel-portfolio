@@ -1,0 +1,981 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="Real client reviews and project case studies from Micheal Olisey - web designer, developer and digital marketer. See verified results.">
+
+    <meta name="keywords"
+        content="Micheal Olisey, web design projects, clients testimonials, Bootstrap developer portfolio, digital marketer ">
+
+    <meta name="author" content="Micheal Olisey">
+
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Outfit:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <!-- BOOTSTRAP 5 AND ICONS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="custom.css">
+    <link rel="stylesheet" href="utility.css">
+    <title>Testimonials & Projects - Micheal Olisey | Web Developer</title>
+</head>
+
+<body>
+    <!-- NAVBAR -->
+    <nav id="mainNav" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <a class="navbar-brand heading-underline" href="index.html">MI<span>CHEAL</span></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu"
+                aria-controls="navmenu" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav mx-auto align-items-lg-center gap-1">
+                    <li class="nav-item"><a class="nav-link" data-page="index.html" href="index.html#hero">Home</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="index.html#about">About</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="index.html#services">Services</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="index.html#skills">Skills</a></li>
+
+                    <li class="nav-item"><a class="nav-link" href="index.html#projects">Projects</a></li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" data-page="testimonials.html" href="testimonials.html">
+                            Testimonials
+                        </a>
+                    </li>
+
+                    <hr class="bg-light my-4">
+
+                    <li class="nav-item ms-lg-2">
+                        <a class="btn-accent" data-page="contact.html" href="contact.html">
+                            Work with Me <i class="bi bi-person-workspace"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- TESTIMONIAL BREADCRUMB SECTION -->
+    <div class="testimonial-hero mt-5">
+        <div class="container position-relative" style="z-index: 2;">
+            <div class="breadcrumb-custom">
+                <a href="index.html">
+                    Home <span>/</span>
+                </a>
+
+                <span style="color: var(--text-2);">
+                    Testimonials
+                </span>
+            </div>
+
+            <div class="testimonial-eye">
+                Proof of Work
+            </div>
+
+            <h1 class="testimonial-hero-title animate-1">
+                Projects &
+                <span class="logo">
+                    Clients Reviews
+                </span>
+            </h1>
+
+            <p class="testimonial-hero-text animate-2">
+                Six real projects, both for clients and self built all aimed at achieveing the required goal visibility.
+            </p>
+        </div>
+    </div>
+
+    <!-- RECENT WORK -->
+    <section class="projects" style="background: var(--bg);">
+        <div class="container">
+            <div class="text-center py-4 reveal">
+                <h2 class="project-title">Recent Projects</h2>
+            </div>
+
+            <!-- FILTER TABS FOR PROJECT CATEGORY -->
+            <div class="filter-tabs reveal my-4">
+                <button class="filter-btn active" data-filter="all">All</button>
+
+                <button class="filter-btn" data-filter="web">
+                    Web Design & Development
+                </button>
+
+                <button class="filter-btn" data-filter="marketing">Digital Marketing</button>
+            </div>
+
+            <div class="row g-4 my-5 project-grid">
+                <!-- FIRST PROJECT -->
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="project-card" data-category="web">
+                        <img src="Portfolio design.png" class="card-img-top" alt="Portfolio">
+
+                        <div class="card-body">
+                            <span class="card-tag">Web Design</span>
+
+                            <h5 class="card-title">
+                                Personal Portfolio Website
+                            </h5>
+
+                            <div class="tools">
+                                <span class="tool-pill">HTML</span><span class="tool-pill">CSS</span>
+                                <span class="tool-pill">Bootstrap</span><span class="tool-pill">Javascript</span>
+                            </div>
+
+                            <p class="card-text">
+                                A clean multi-section personal portfolio built to showcase skills, projects and services
+                                with a working contact form linked to WhatsApp
+                            </p>
+
+                            <div class="view-btn">
+                                <a href="index.html" class="btn-live">
+                                    Live Site
+                                </a>
+
+                                <button data-bs-toggle="modal" data-bs-target="#first-card" type="button"
+                                    class="btn-details">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT INFO THAT'LL SHOW ON THE SCREEN WHEN DETAILS BUTTON IS CLICKED -->
+                    <!-- MODAL MOVED TO BOTTOM OF PAGE -->
+                </div>
+
+                <!-- SECOND PROJECT -->
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-2">
+                    <div class="project-card" data-category="web">
+                        <img src="Portfolio design 2.jpeg" class="card-img-top" alt="Cloud Hosting Website">
+
+                        <div class="card-body">
+                            <span class="card-tag dot">Web Design</span>
+
+                            <h5 class="card-title">
+                                Cloud Hosting Website
+                            </h5>
+
+                            <div class="tools">
+                                <span class="tool-pill">HTML</span>
+                                <span class="tool-pill">CSS</span>
+                            </div>
+
+                            <p class="card-text">
+                                A clean cloud-hosting paltform for deploying static websites and applications from your
+                                simple dashboard added features include API integration.
+                            </p>
+
+                            <div class="view-btn">
+                                <a href="https://loruki-server-hosting.netlify.app/" class="btn-live">
+                                    Live Site
+                                </a>
+
+                                <button data-bs-toggle="modal" data-bs-target="#second-card" type="button"
+                                    class="btn-details">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT INFO THAT'LL SHOW ON THE SCREEN WHEN DETAILS BUTTON IS CLICKED -->
+                    <!-- MODAL MOVED TO BOTTOM OF PAGE -->
+                </div>
+
+                <!-- THIRD PROJECT -->
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-3">
+                    <div class="project-card" data-category="marketing">
+                        <img src="Portfolio design 3.jpeg" class="card-img-top" alt="Social media campaign">
+
+                        <div class="card-body">
+                            <span class="card-tag dot">Digital Marketing</span>
+
+                            <h5 class="card-title">
+                                Social Media Campaign
+                            </h5>
+
+                            <div class="tools">
+                                <span class="tool-pill">Canva</span>
+                                <span class="tool-pill">Meta Ads</span>
+                                <span class="tool-pill">Copywriting</span>
+                            </div>
+
+                            <p class="card-text">
+                                Designed and managed a full social media content strategy on Facebook for an
+                                entertainment page, growing engagement by 40%.
+                            </p>
+
+                            <div class="view-btn">
+                                <a href="https://www.facebook.com/TheArchitectEnt" class="btn-live">
+                                    Live Site
+                                </a>
+
+                                <button data-bs-toggle="modal" data-bs-target="#third-card" type="button"
+                                    class="btn-details">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT INFO THAT'LL SHOW ON THE SCREEN WHEN DETAILS BUTTON IS CLICKED -->
+                    <!-- MODAL MOVED TO BOTTOM OF PAGE -->
+                </div>
+
+                <!-- FOURTH PROJECT -->
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="project-card" data-category="web">
+                        <img src="Portfolio design 5.png" class="card-img-top" alt="Student-Management-System">
+
+                        <div class="card-body">
+                            <span class="card-tag">Web Development</span>
+
+                            <h5 class="card-title">
+                                Student Management System
+                            </h5>
+
+                            <div class="tools">
+                                <span class="tool-pill">HTML</span>
+                                <span class="tool-pill">CSS</span>
+                                <span class="tool-pill">PHP</span>
+                                <span class="tool-pill">MYSQL</span>
+                            </div>
+
+                            <p class="card-text">
+                                A structured backend application built to handle student record management with secure
+                                admin authentication, dynamic dashboards, and optimized database operations.
+                            </p>
+
+                            <div class="view-btn">
+                                <a href="index.html" class="btn-live">
+                                    View Work
+                                </a>
+
+                                <button data-bs-toggle="modal" data-bs-target="#fourth-card" type="button"
+                                    class="btn-details">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT DETAILS THAT'LL SHOW ON THE SCREEN WHEN DETAILS BUTTON IS CLICKED -->
+                    <!-- MODAL MOVED TO BOTTOM OF PAGE -->
+                </div>
+
+                <!-- FIFTH PROJECT -->
+                <div class="col-md-6 col-lg-4 reveal reveal-delay-1">
+                    <div class="project-card" data-category="marketing">
+                        <img src="Portfolio design 4.5.png" class="card-img-top" alt="Branding-Image">
+
+                        <div class="card-body">
+                            <span class="card-tag">Digital Marketing</span>
+
+                            <h5 class="card-title">
+                                Brand Identity & Content
+                            </h5>
+
+                            <div class="tools">
+                                <span class="tool-pill">Canva</span>
+                                <span class="tool-pill">Copywriting</span>
+                                <span class="tool-pill">Smma</span>
+                            </div>
+
+                            <p class="card-text">
+                                Developed a complete personal brand identity for a digital service creator on Facebook,
+                                including a professional cover photo, optimised bio and a content strategy built to
+                                convert followers into clients.
+                            </p>
+
+                            <div class="view-btn">
+                                <a href="https://www.facebook.com/olisey75" class="btn-live">
+                                    View Page
+                                </a>
+
+                                <button data-bs-toggle="modal" data-bs-target="#fifth-card" type="button"
+                                    class="btn-details">
+                                    Details
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- PROJECT DETAILS THAT'LL SHOW ON THE SCREEN WHEN DETAILS BUTTON IS CLICKED -->
+                    <!-- MODAL MOVED TO BOTTOM OF PAGE -->
+                </div>
+            </div>
+
+            <div class="empty-state" id="emptyState">
+                No projects in this category yet. Check back soon.
+            </div>
+        </div>
+    </section>
+
+
+    <!-- TESTIMONIALS -->
+    <section class="py-5 testimonials-section">
+        <div class="container">
+            <div class="text-center mb-5 reveal">
+                <div class="testimonial-eye justify-content-center">
+                    Clients Reviews
+                </div>
+
+                <h2>
+                    What My
+                    <span class="logo">
+                        Clients
+                    </span>
+                    Say
+                </h2>
+
+                <p class="mx-auto">Clients feedback from recent projects.</p>
+            </div>
+
+            <div class="row justify-content-center reveal">
+                <div class="col-lg-9">
+                    <div class="testimonial-carousel-wrap px-4 px-md-5">
+                        <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel"
+                            data-bs-interval="3000">
+                            <div class="carousel-inner pb-5 custom-carousel">
+                                <!-- FIRST SLIDE -->
+                                <div class="carousel-item active">
+                                    <div class="glass-card testimonial-card">
+                                        <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
+                                            width="50" height="50" fill="#0d6efd" opacity="0.2">
+                                            <path
+                                                d="M12 6C8.7 6 6 8.7 6 12v10c0 3.3 2.7 6 6 6h4l-4 10h6l5-10V12c0-3.3-2.7-6-6-6h-5zm22 0c-3.3 0-6 2.7-6 6v10c0 3.3 2.7 6 6 6h4l-4 10h6l5-10V12c0-3.3-2.7-6-6-6h-5z" />
+                                        </svg>
+
+                                        <div class="testimonial-avatar text-white"
+                                            style="width: 60px; height: 60px; border-radius: 50%; background: #0d6efd; font-size: 1rem;">
+                                            TF
+                                        </div>
+
+                                        <p class="testimonial-message mb-2">
+                                            I came to Micheal with just a rough idea of what I wanted for my business
+                                            page. He asked the right questions, understood my audience and delivered
+                                            something that actually looked better than what I had in my head. The
+                                            contact form alone has brought in three new enquiries since we launched.
+                                        </p>
+
+                                        <hr class="testimonial-line">
+
+                                        <h6 class="testimonial-author mb-0">&mdash; Tunde Fashola</h6>
+                                        <small class="testimonial-name text-muted">Founder, TF Logistics, Lagos</small>
+                                    </div>
+                                </div>
+
+                                <!-- SECOND SLIDE -->
+                                <div class="carousel-item">
+                                    <div class="glass-card testimonial-card">
+                                        <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
+                                            width="50" height="50" fill="#0d6efd" opacity="0.2">
+                                            <path
+                                                d="M12 6C8.7 6 6 8.7 6 12v10c0 3.3 2.7 6 6 6h4l-4 10h6l5-10V12c0-3.3-2.7-6-6-6h-5zm22 0c-3.3 0-6 2.7-6 6v10c0 3.3 2.7 6 6 6h4l-4 10h6l5-10V12c0-3.3-2.7-6-6-6h-5z" />
+                                        </svg>
+
+                                        <div class="testimonial-avatar fw-bold text-white"
+                                            style="width: 60px; height: 60px; border-radius: 50%; background: #6f42c1; font-size: 1.2rem;">
+                                            CE
+                                        </div>
+
+                                        <p class="testimonial-message mb-2">What I appreciated most was that he
+                                            explained everything
+                                            he was doing
+                                            without making me feel lost. I'm not tech savvy at all but by the end I
+                                            understood my
+                                            own website. It's clean, loads fast and my customers keep complimenting it.
+                                            Worth every
+                                            naira.
+                                        </p>
+
+                                        <hr class="testimonial-line">
+
+                                        <h6 class="testimonial-author mb-0">&mdash; Chioma Eze</h6>
+                                        <small class="testimonial-name text-muted">CEO, Chioma's Skincare, Abuja</small>
+                                    </div>
+                                </div>
+
+                                <!-- THIRD SLIDE -->
+                                <div class="carousel-item">
+                                    <div class="glass-card testimonial-card">
+                                        <svg class="quote-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 50 50"
+                                            width="50" height="50" fill="#0d6efd" opacity="0.2">
+                                            <path
+                                                d="M12 6C8.7 6 6 8.7 6 12v10c0 3.3 2.7 6 6 6h4l-4 10h6l5-10V12c0-3.3-2.7-6-6-6h-5zm22 0c-3.3 0-6 2.7-6 6v10c0 3.3 2.7 6 6 6h4l-4 10h6l5-10V12c0-3.3-2.7-6-6-6h-5z" />
+                                        </svg>
+
+                                        <div class="testimonial-avatar fw-bold text-white"
+                                            style="width: 60px; height: 60px; border-radius: 50%; background: #198754; font-size: 1.2rem;">
+                                            EN
+                                        </div>
+
+                                        <p class="testimonial-message mb-2">He handled our Facebook page rebrand from
+                                            scratch. New cover, new bio, new content direction. Within two weeks of the
+                                            new setup our page reach jumped noticeably
+                                            and we started getting DMs from people asking about our services. He knows
+                                            what he's
+                                            doing with social media.
+                                        </p>
+
+                                        <hr class="testimonial-line">
+
+                                        <h6 class="testimonial-author mb-0">&mdash; Emeka Nwosu</h6>
+                                        <small class="testimonial-name text-muted">
+                                            CEO, Nwosu Media Group, Port Harcourt</small>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="carousel-indicators">
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="0"
+                                    class="active" aria-current="true" aria-label="Slide 1">
+                                </button>
+
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="1"
+                                    aria-label="Slide 2">
+                                </button>
+
+                                <button type="button" data-bs-target="#testimonialCarousel" data-bs-slide-to="2"
+                                    aria-label="Slide 3">
+                                </button>
+                            </div>
+
+                            <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel"
+                                data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+
+                            <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel"
+                                data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CALL TO ACTION -->
+    <section id="CTA" style="background: var(--bg);" class="py-5">
+        <div class="container position-relative" style="z-index: 2;">
+            <div class="row justify-content-center">
+                <div class="col-lg-7 text-center reveal">
+                    <div class="cta-tag justify-content-center">
+                        Course of action..?
+                    </div>
+
+                    <h2 class="cta-head">
+                        Your Project Could Be <br>
+                        <span class="logo">Next on This Page.</span>
+                    </h2>
+
+                    <p class="cta-text">
+                        Every project listed here started with one conversation. Reach out, tell me what you need, and
+                        let's build something worth showing off.
+                    </p>
+
+                    <a href="contact.html" class="btn-accent test-btn">
+                        Send a Message
+                        <i style="font-size: 0.95rem;" class="bi bi-send-fill"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER SECTION -->
+    <footer>
+        <div class="container">
+            <div class="text-center footer-container">
+                <div class="footer-copyright order-2 order-lg-1">
+                    <span class="d-block"> &copy;
+                        <span class="js-year"></span>
+                        Micheal | All Rights Reserved</span>
+                </div>
+
+                <div class="footer-socials order-md-1 order-lg-2">
+                    <a href="https://linkedin.com/in/micheal-olisey">
+                        <i class="bi bi-linkedin"></i>
+                    </a>
+
+                    <a href="https://www.instagram.com/micheal_creates12">
+                        <i class="bi bi-instagram"></i>
+                    </a>
+
+                    <a href="https://www.facebook.com/olisey75">
+                        <i class="bi bi-facebook"></i>
+                    </a>
+
+                    <a href="https://wa.link/a66pfk">
+                        <i class="bi bi-whatsapp"></i>
+                    </a>
+                </div>
+
+                <div class="footer-author order-3">
+                    <span class="d-block">Designed by - Micheal</span>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- PROJECT MODALS MOVED TO BOTTOM OF PAGE -->
+    <div class="modal fade" id="first-card" tabindex="-1" aria-labelledby="first-cardlabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fw-bold" id="first-cardlabel">Personal Portfolio</h1>
+
+                    <button type="button" data-bs-dismiss="modal" aria-label="close" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted small mb-4 fw-bold">Designed and built to convert visitors</p>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Challange
+                        </p>
+                        <p class="small text-muted">
+                            As a freelancer, having no online presence means relying entirely on word of
+                            mouth to get clients. There was no central place to showcase skills, or list
+                            services. You can put yourself out there through social media but a solid
+                            foundation for assurance needs to be set.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Execution
+                        </p>
+                        <p class="small text-muted">
+                            Built a clean multi-section portfolio using HTML, CSS, Bootstrap 5 and
+                            vanilla javascript.
+                            Sections lnclude hero, about, skills with animated progress bars, service,
+                            projects showcase with filter tabs and a contact form.
+                            The form validates inputs and redirects directly to Whatsapp and also email,
+                            incase of online activity for easier responce while keeping communication
+                            fast.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Result
+                        </p>
+                        <p class="small text-muted">
+                            A fully mobile-responsive and deployed portfolio that sreves as a 24/7 sales
+                            page. Clients can view work, understand services offered and reach out in
+                            under a minute without needing to search elsewhere.
+                        </p>
+                    </div>
+
+                    <div class="border-start border-left border-5 ps-3 rounded-4 p-3 mb-3">
+                        <p class="fw-semibold mb-1 logo">Key Achievement</p>
+                        <p class="small text-muted mb-0">Reduced client onboarding friction by
+                            connecting the contact form directly to Whatsapp, cutting response time
+                            significantly compared to traditional email forms</p>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-3">
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">5
+                            </p>
+
+                            <p class="small text-muted">Sections</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">100%
+                            </p>
+
+                            <p class="small text-muted">Responsive</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">Live
+                            </p>
+
+                            <p class="small text-muted">Deployed</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn-live small" data-bs-dismiss="modal">
+                        Go back
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="second-card" tabindex="-1" aria-labelledby="second-cardlabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-bold" id="second-cardlabel">Cloud Hosting Website
+                    </h1>
+
+                    <button type="button" data-bs-dismiss="modal" aria-label="close" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted small mb-4 fw-bold">A Demo Cloud Hosting Platform</p>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Challange
+                        </p>
+                        <p class="small  text-muted">
+                            Many hosting platforms have cluttered, overwhelming landing pages that
+                            confuse potential customers before they even sign up. The goal was to design
+                            a clean, modern front-end that communicates value immediately and guides
+                            visitors toward taking action.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Execution
+                        </p>
+                        <p class="small text-muted">Designed and built the Loruki cloud hosting website
+                            using HTML and CSS. The layout includes a hero section with a clear value
+                            proposition, a features breakdown, a pricing section and a demo request
+                            form. The design prioritises clarity and visual hierarchy to move visitors
+                            down the page naturally.</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Result
+                        </p>
+                        <p class="small text-muted">A fully responsive product marketing site that
+                            presents a hosting platform in a trustworthy and professional light. The
+                            demo request form gives the business a direct lead generation tool without
+                            needing a backend at the front-end stage.</p>
+                    </div>
+
+                    <div class="border-start border-left border-5 ps-3 rounded-4 p-3 mb-3">
+                        <p class="fw-semibold mb-1 logo">Key Achievement</p>
+                        <p class="small text-muted mb-0">
+                            Delivered a clean, conversion focused layout that balances product
+                            information with strong call-to-action placement across every section of the
+                            page
+                        </p>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-3">
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">HTML</p>
+                            <p class="small text-muted">Structure</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">CSS</p>
+                            <p class="small text-muted">Styling</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">100%</p>
+                            <p class="small text-muted">Responsive</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn-live small" data-bs-dismiss="modal">Go
+                        back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="third-card" tabindex="-1" aria-labelledby="third-cardlabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-bold" id="third-cardlabel">Social Media Campaign</h1>
+
+                    <button type="button" data-bs-dismiss="modal" aria-label="close" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted small mb-4 fw-bold">Full content strategy and execution for an
+                        entertainment page</p>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Challange
+                        </p>
+                        <p class="small  text-muted">
+                            The page had an existing social media presence but lacked consistency in
+                            posting, visual identity and messaging. Low engagement and inconsistent
+                            content were making it difficult to build an audience and drive visual
+                            awareness.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Execution
+                        </p>
+                        <p class="small text-muted">Designed a full content strategy for their Facebook
+                            page. Created branded graphics using Canva, wrote captions tailored to their
+                            platform's audience, developed a monthly content calendar and ran targeted
+                            Meta Ads to expand reach beyond the existing follower base.</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Result
+                        </p>
+                        <p class="small text-muted">Engagement grew by 40% within the campaign period.
+                            The page's feed became visually consistent, post reach increased through
+                            paid promotion and the content calendar ensured the page stayed active
+                            without gaps.</p>
+                    </div>
+
+                    <div class="border-start border-left border-5 ps-3 rounded-4 p-3 mb-3">
+                        <p class="fw-semibold mb-1 logo">Key Achievement</p>
+                        <p class="small text-muted mb-0">
+                            Transformed an inconsistent social presence into a structured content
+                            system, resulting in a 40% engagement increase and a recognisable brand
+                            identity on the facebook platform.
+                        </p>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-3">
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">40%</p>
+                            <p class="small text-muted">Engagement Reach</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">1</p>
+                            <p class="small text-muted">Platform</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">Meta</p>
+                            <p class="small text-muted">Ads ran</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn-live small" data-bs-dismiss="modal">Go
+                        back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="fourth-card" tabindex="-1" aria-labelledby="fourth-cardlabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-bold" id="fourth-cardlabel">Student Management System
+                    </h1>
+
+                    <button type="button" data-bs-dismiss="modal" aria-label="close" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted small mb-4 fw-bold">A full-stack web system for managing
+                        student records with admin authentication</p>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Challange
+                        </p>
+                        <p class="small text-muted">
+                            Managing student registrations manually through spreadsheets or paper
+                            records creates room for errors, data loss and slow retrieval. There was a
+                            need for a centralized system where an admin could register, track, update
+                            and delete student records efficiently with a proper access control layer.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Execution
+                        </p>
+                        <p class="small text-muted">Built a full-stack student management system using
+                            PHP and MySQL with OOP principles. The system includes secure admin
+                            registration and login with hashed passwords, protected session management,
+                            student registration with image upload and input validation, a searchable
+                            student table with pagination, edit and delete functionality, a JOIN query
+                            linking students to the admin that registered them, an admin dashboard
+                            showing total students and a registration log file written to storage on
+                            every new entry.</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Result
+                        </p>
+                        <p class="small text-muted">A fully working system that allows authenticated
+                            admins to manage student records end to end. Data is stored persistently in
+                            a MySQL database, all actions are validated and sanitized to prevent errors,
+                            and every registration is automatically logged with a timestamp for record
+                            keeping.</p>
+                    </div>
+
+                    <div class="border-start border-left border-5 ps-3 rounded-4 p-3 mb-3">
+                        <p class="fw-semibold mb-1 logo">Key Achievement</p>
+                        <p class="small text-muted mb-0">
+                            Implemented OOP architecture using a Student class and an Admin class that
+                            extends it through inheritance, keeping the codebase structured and scalable
+                            beyond a basic procedural approach.
+                        </p>
+                    </div>
+
+                    <div class="d-flex gap-3 mt-3">
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">PHP</p>
+                            <p class="small text-muted">Backend</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">MySQL</p>
+                            <p class="small text-muted">Database</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">OOP</p>
+                            <p class="small text-muted">Architecture</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">Full Stack</p>
+                            <p class="small text-muted">End to End</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn-live small" data-bs-dismiss="modal">
+                        Go back
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="fifth-card" tabindex="-1" aria-labelledby="fifth-cardlabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5 fw-bold" id="fifth-cardlabel">Brand Identity & Content
+                    </h1>
+
+                    <button type="button" data-bs-dismiss="modal" aria-label="Close" class="btn-close"></button>
+                </div>
+
+                <div class="modal-body">
+                    <p class="text-muted small mb-4 fw-bold">Personal brand setup and content strategy
+                        for a freelance digital services page</p>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Challange
+                        </p>
+                        <p class="small text-muted">
+                            The page had no clear visual identity or positioning. The bio wasn't
+                            communicating what the page offered or who it was for, making it difficult
+                            for visitors to understand the value quickly enough to follow or reach out.
+                            There was no cover photo, no structured messaging and no content direction.
+                        </p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Execution
+                        </p>
+                        <p class="small text-muted"> Designed a professional cover photo using Canva
+                            that clearly states the name, niche and call to action. Wrote a structured
+                            bio using a three line format that communicates the value proposition, the
+                            method and a follow prompt. Set up the page category, location and school
+                            details to improve discoverability. Crafted the page headline to include a
+                            role descriptor as a trust signal alongside the name.</p>
+                    </div>
+
+                    <div class="mb-3">
+                        <p class="fw-semibold mb-1 logo">
+                            --Result
+                        </p>
+                        <p class="small text-muted">The page now has a clear, professional first
+                            impression that communicates the offer within seconds of landing on it. The
+                            cover photo doubles as a silent pitch, the bio qualifies the right audience
+                            and the overall profile is set up to convert profile visitors into followers
+                            and potential clients.</p>
+                    </div>
+
+                    <div class="border-start border-left border-5 ps-3 rounded-4 p-3 mb-3">
+                        <p class="fw-semibold mb-1 logo">Key Achievement</p>
+                        <p class="small text-muted mb-0">
+                            Transformed a blank, unpositioned page into a structured personal brand that
+                            clearly communicates web design and digital marketing services, supported by
+                            a cover photo CTA directing visitors to send an inbox message to
+                            collaborate.
+                        </p>
+                    </div>
+
+                    <div class="d-flex gap-3">
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">701</p>
+                            <p class="small text-muted">Followers</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">Canva</p>
+                            <p class="small text-muted">Design Tool</p>
+                        </div>
+
+                        <div class="text-center">
+                            <p class="fw-bold logo mb-0">Facebook</p>
+                            <p class="small text-muted">Platform</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="btn-live small" data-bs-dismiss="modal">Go
+                        back</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="portfolio.js"></script>
+</body>
+
+</html>
