@@ -223,7 +223,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let message = document.getElementById('message')?.value || "";
 
         // REDIRECTS USER TO WHATSAPP
-        const phone_no = "2348106522404";
+        const phone_no = "2349095010365";
 
         const text = `New Project Enquiry
 
