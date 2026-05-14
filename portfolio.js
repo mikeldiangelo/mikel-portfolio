@@ -35,8 +35,14 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (navCollapse) {
         const bsCollapse = new bootstrap.Collapse(navCollapse, { toggle: false });
+        const setNavOpen = () => nav?.classList.add('nav-open');
+        const setNavClosed = () => nav?.classList.remove('nav-open');
 
-        document.querySelectorAll('.nav-link').forEach(link => {
+        navCollapse.addEventListener('show.bs.collapse', setNavOpen);
+        navCollapse.addEventListener('shown.bs.collapse', setNavOpen);
+        navCollapse.addEventListener('hidden.bs.collapse', setNavClosed);
+
+        document.querySelectorAll('.nav-link, #navMenu .btn-accent').forEach(link => {
             link.addEventListener('click', () => {
                 if (navCollapse.classList.contains('show')) {
                     bsCollapse.hide();
